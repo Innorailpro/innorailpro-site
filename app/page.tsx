@@ -84,7 +84,7 @@ export default function InnoRailProWebsite() {
               </span>
             </div>
 
-            <h2 className="text-5xl md:text-7xl leading-tight font-black text-white tracking-tight">
+            <h2 className="text-4xl md:text-6xl leading-tight font-black text-white tracking-tight">
               Driving Innovation Across the Rail Industry
             </h2>
 
