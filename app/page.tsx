@@ -75,7 +75,7 @@ export default function InnoRailProWebsite() {
 
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent" />
 
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-36">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-16 lg:py-24">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/20 rounded-full px-4 py-2 mb-8">
               <div className="w-2 h-2 bg-orange-500 rounded-full" />
@@ -106,8 +106,8 @@ export default function InnoRailProWebsite() {
       </section>
 
       {/* About + Industries */}
-      <section id="about" className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-start">
+      <section id="about" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6 grid lg:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-orange-500 font-semibold uppercase tracking-widest text-sm mb-4">
               About InnoRailPro
@@ -160,8 +160,8 @@ export default function InnoRailProWebsite() {
       </section>
 
       {/* Services */}
-      <section id="services" className="py-24 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <section id="services" className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-6 lg:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-orange-500 font-semibold uppercase tracking-widest text-sm mb-4">
               Our Services
@@ -180,7 +180,7 @@ export default function InnoRailProWebsite() {
             {services.map((service) => (
               <div
                 key={service.title}
-                className="group bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl transition duration-300 border border-slate-100"
+                className="group bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl transition duration-300 border border-slate-100"
               >
                 <div className="w-16 h-16 rounded-2xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center mb-6 group-hover:bg-orange-500 transition">
                   <div className="w-6 h-6 rounded-full bg-orange-500 group-hover:bg-white transition" />
@@ -200,10 +200,10 @@ export default function InnoRailProWebsite() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-slate-950 relative overflow-hidden">
+      <section className="py-16 bg-slate-950 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-transparent" />
 
-        <div className="relative max-w-5xl mx-auto px-6 lg:px-8 text-center">
+        <div className="relative max-w-5xl mx-auto px-4 lg:px-6 text-center">
           <h3 className="text-5xl font-black text-white leading-tight">
             Ready to Modernize Your Rail Operations?
           </h3>
@@ -217,7 +217,7 @@ export default function InnoRailProWebsite() {
               Schedule a Consultation
             </button>
 
-            <button className="border border-white/20 hover:border-orange-500 hover:bg-orange-500/10 text-white px-8 py-4 rounded-2xl font-semibold transition">
+            <button className="border border-white/20 hover:border-orange-500 hover:bg-orange-500/10 text-white px-6 py-4 rounded-2xl font-semibold transition">
               Contact Us
             </button>
           </div>
@@ -225,8 +225,8 @@ export default function InnoRailProWebsite() {
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="bg-white border-t border-slate-200 py-12">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <footer id="contact" className="bg-white border-t border-slate-200 py-8">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <h4 className="text-2xl font-black mb-4">
               <span className="text-slate-900">INNO</span>
@@ -253,7 +253,7 @@ export default function InnoRailProWebsite() {
             <ul className="space-y-3 text-slate-600">
               <li>info@innorailpro.com</li>
               <li>+1 (972) 850-6568</li>
-              <li>Richardson, Texas</li>
+              <li>Dallas Fort Worth, Texas</li>
             </ul>
           </div>
 
@@ -269,9 +269,9 @@ export default function InnoRailProWebsite() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 mt-12 pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6 mt-12 pt-8 border-t border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © 2026 InnoRailPro Advisory. All rights reserved.
+            © 2026 InnoRailPro, LLC. All rights reserved.
           </p>
 
           <p className="text-slate-500 text-sm">
